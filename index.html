@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codeplays</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+<!-- Devicon for technology icons -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Theme Toggle -->
+     <div class="toast">
+        <p>Nice</p>
+     </div>
+    <div class="theme-toggle">
+        <div class="toggle-track">
+            <div class="toggle-thumb">
+                <i class="fas fa-sun"></i>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Language Toggle -->
+    <div class="lang-toggle">
+        <button id="lang-en" class="active">EN</button>
+        <button id="lang-ar">AR</button>
+    </div>
+
+    <!-- Floating Particles Background -->
+    <div class="particles"></div>
+
+    <!-- Header/Navigation -->
+    <!-- <header>
+        <div class="nav-container">
+            <div class="nav-brand">
+                <span class="logo-emoji">🚀</span>
+                <span class="logo-text" data-i18n="logo"></span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about" class="nav-link active" data-i18n="about">About</a></li>
+                    <li><a href="#projects" class="nav-link" data-i18n="projects">Projects</a></li>
+                    <li><a href="#contact" class="nav-link" data-i18n="contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> -->
+
+    <!-- Main Content -->
+    <main>
+        <!-- About Section -->
+        <section id="about" class="page active">
+            <div class="about-content">
+                <div class="profile-container">
+                    <div class="profile-image">
+                        <img src="images/profile.png" alt="Developer Profile" class="glow">
+                        <div class="tech-icons">
+                            <div class="icon python"><i class="fab fa-android"></i></div>
+                            <div class="icon react-native"><i class="fab fa-react"></i></div>
+                            <div class="icon NodeJS"><i class="fab fa-apple"></i></div>
+                            <div class="icon PostgreSQL"><i class="fas fa-mobile-alt"></i></div>
+                            <div class="icon MongoDB"><i class="fab fa-database"></i></div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="about-text">
+                        <h1 class="animated-text" data-i18n="about_title">Hi, I'm a Mobile Developer</h1>
+                        <div class="typewriter">
+                            <span class="typewriter-text" data-i18n="specialization"></span>
+                        </div>
+                        <p data-i18n="about_text">I craft exceptional mobile experiences that users love. With expertise in both native and cross-platform development, I build apps that are beautiful, performant, and scalable.</p>
+        <div class="skills">
+            <h3 data-i18n="skills">My Tech Stack</h3>
+            <div class="skill-icons">
+                <div class="skill" data-skill="python">
+                    <div class="skill-icon-wrapper">
+                        <i class="devicon-python-plain colored"></i>
+                    </div>
+                    <div class="skill-name" data-i18n="python">Python</div>
+                </div>
+                <div class="skill" data-skill="React Native">
+                    <div class="skill-icon-wrapper">
+                        <i class="devicon-react-original colored"></i>
+                    </div>
+                    <div class="skill-name" data-i18n="react_native">React Native</div>
+                </div>
+                <div class="skill" data-skill="Node JS">
+                    <div class="skill-icon-wrapper">
+                        <i class="devicon-nodejs-plain colored"></i>
+                    </div>
+                    <div class="skill-name" data-i18n="Node JS">Node JS</div>
+                </div>
+                <div class="skill" data-skill="PostgreSQL">
+                    <div class="skill-icon-wrapper">
+                        <i class="devicon-postgresql-plain colored"></i>
+                    </div>
+                    <div class="skill-name" data-i18n="PostgreSQL">PostgreSQL</div>
+                </div>
+<div class="skill" data-skill="MongoDB">
+  <div class="skill-icon-wrapper">
+    <i class="devicon-mongodb-plain colored"></i>
+  </div>
+  <div class="skill-name" data-i18n="MongoDB">MongoDB</div>
+</div>
+            </div>
+
+                    </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="page">
+            <h1 class="section-title" data-i18n="projects_title">Featured Projects</h1>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-project="1">
+                    <div class="project-preview">
+                        <img src="images/coffee/coffe-app.jpg" alt="E-Commerce App Screenshot 1">
+                        <div class="project-overlay">
+                            <button class="view-project" data-i18n="view_project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <button class="view-project" data-i18n="view_project">View Project</button>
+                        <h2 data-i18n="project1_title"></h2>
+                        <p data-i18n="project1_desc"></p>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-project="2">
+                    <div class="project-preview">
+                        <img src="images/blog/blog-app.jpg" alt="blog">
+                        <div class="project-overlay">
+                            <button class="view-project" data-i18n="view_project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <button class="view-project" data-i18n="view_project">View Project</button>
+                        <h2 data-i18n="project2_title">Fitness Companion</h2>
+                        <p data-i18n="project2_desc">AI-powered workout and nutrition tracker</p>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-project="3">
+                    <div class="project-preview">
+                        <img src="images/phone/phone-app.jpg" alt="phone">
+                        <div class="project-overlay">
+                            <button class="view-project" data-i18n="view_project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <button class="view-project" data-i18n="view_project">View Project</button>
+                        <h2 data-i18n="project3_title"></h2>
+                        <p data-i18n="project3_desc"></p>
+                    </div>
+                </div>
+                <div class="project-card" data-project="4">
+                    <div class="project-preview">
+                        <img src="images/pizza-delevery/pizza-app.png" alt="Phone App">
+                        <div class="project-overlay">
+                            <button class="view-project" data-i18n="view_project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <button class="view-project" data-i18n="view_project">View Project</button>
+                        <h2 data-i18n="project4_title"></h2>
+                        <p data-i18n="project4_desc"></p>
+                    </div>
+                </div>
+                <div class="project-card" data-project="5">
+                    <div class="project-preview">
+                        <img src="images/headset/headset.jpg" alt="Phone App">
+                        <div class="project-overlay">
+                            <button class="view-project" data-i18n="view_project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <button class="view-project" data-i18n="view_project">View Project</button>
+                        <h2 data-i18n="project5_title"></h2>
+                        <p data-i18n="project5_desc"></p>
+                    </div>
+                </div>
+                <div class="project-card" data-project="6">
+                    <div class="project-preview">
+                        <img src="images/gym/gym-01.jpg" alt="Phone App">
+                        <div class="project-overlay">
+                            <button class="view-project" data-i18n="view_project">View Project</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <button class="view-project" data-i18n="view_project">View Project</button>
+                        <h2 data-i18n="project6_title"></h2>
+                        <p data-i18n="project6_desc"></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="page">
+            <h1 class="section-title" data-i18n="contact_title">Let's Build Something Amazing</h1>
+            
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3 data-i18n="contact_info">Get in Touch</h3>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span data-i18n="email">Email</span>
+                                <span>digitra.18@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span data-i18n="phone">Phone</span>
+                                <a href="tel:+1234567890">213556349403+</a>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-detail">
+                                <span data-i18n="location">Location</span>
+                                <span>Algeria, Jijel</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+<div class="social-links">
+  <a href="https://wa.me/+213556349403" class="social-link whatsapp" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.instagram.com/codeplays01" target="_blank" class="social-link instagram" aria-label="Instagram">
+    <i class="fab fa-instagram"></i>
+  </a>
+</div>
+                </div>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group floating">
+                        <input type="text" id="name" required>
+                        <label for="name" data-i18n="name">Your Name</label>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="form-group floating">
+                        <input type="email" id="email" required>
+                        <label for="email" data-i18n="email">Email Address</label>
+                        <div class="underline"></div>
+                    </div>
+                    <div class="form-group floating">
+                        <textarea id="message" rows="4" required></textarea>
+                        <label for="message" data-i18n="message">Your Message</label>
+                        <div class="underline"></div>
+                    </div>
+                    <button type="submit" class="submit-btn" id="submit-btn">
+                        <span data-i18n="send_message">Send Message</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modals -->
+    <div class="modal-overlay" id="modal-1">
+        <div class="modal-container">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h2 class="modal-title" data-i18n="project1_title">Coffee App</h2>
+            </div>
+            <div class="modal-content">
+                <div class="modal-slider">
+                    <div class="slider-container">
+                        <div class="slide active">
+                            <img src="images/coffee/coffee-01.jpg" alt="Coffee App Screenshot 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/coffee/coffee-02.jpg" alt="Coffee App Screenshot 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/coffee/coffee-03.jpg" alt="Coffee App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/coffee/coffee-04.jpg" alt="Coffee App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/coffee/coffee-05.jpg" alt="Coffee App Screenshot 3">
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <p data-i18n="modal_description1">A complete coffee ordering solution with menu browsing, customization options, and loyalty rewards. Features real-time order tracking and secure payment integration.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blog App Modal -->
+    <div class="modal-overlay" id="modal-2">
+        <div class="modal-container">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h2 class="modal-title" data-i18n="project2_title">Blog App</h2>
+            </div>
+            <div class="modal-content">
+                <div class="modal-slider">
+                    <div class="slider-container">
+                        <div class="slide active">
+                            <img src="images/blog/blog-01.jpg" alt="Blog App Screenshot 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/blog/blog-02.jpg" alt="Blog App Screenshot 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/blog/blog-03.jpg" alt="Blog App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/blog/blog-04.jpg" alt="Blog App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/blog/blog-05.jpg" alt="Blog App Screenshot 3">
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <p data-i18n="modal_description2">A modern blogging platform with rich text editing, user authentication, and comment functionality. Features SEO optimization and responsive design.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Phone App Modal -->
+    <div class="modal-overlay" id="modal-3">
+        <div class="modal-container">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h2 class="modal-title" data-i18n="project3_title">Phone App</h2>
+            </div>
+            <div class="modal-content">
+                <div class="modal-slider">
+                    <div class="slider-container">
+                        <div class="slide active">
+                            <img src="images/phone/phone-01.jpg" alt="Phone App Screenshot 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/phone/phone-02.jpg" alt="Phone App Screenshot 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/phone/phone-03.jpg" alt="Phone App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/phone/phone-04.jpg" alt="Phone App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/phone/phone-05.jpg" alt="Phone App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/phone/phone-06.jpg" alt="Phone App Screenshot 3">
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <p data-i18n="modal_description3">A smartphone marketplace with product comparison, detailed specifications, and secure checkout. Features wishlist functionality and customer reviews.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pizza App Modal -->
+    <div class="modal-overlay" id="modal-4">
+        <div class="modal-container">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h2 class="modal-title" data-i18n="project4_title">Pizza App</h2>
+            </div>
+            <div class="modal-content">
+                <div class="modal-slider">
+                    <div class="slider-container">
+                        <div class="slide active">
+                            <img src="images/pizza-delevery/pizza-03.jpg" alt="Pizza App Screenshot 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/pizza-delevery/pizza-04.jpg" alt="Pizza App Screenshot 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/pizza-delevery/pizza-05.jpg" alt="Pizza App Screenshot 3">
+                        </div>
+                        <div class="slide active">
+                            <img src="images/pizza-delevery/pizza-06.jpg" alt="Pizza App Screenshot 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/pizza-delevery/pizza-07.jpg" alt="Pizza App Screenshot 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/pizza-delevery/pizza-08.jpg" alt="Pizza App Screenshot 3">
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <p data-i18n="modal_description4">A pizza delivery app with custom pizza builder, real-time order tracking, and driver location. Features saved addresses and order history.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Headset App Modal -->
+    <div class="modal-overlay" id="modal-5">
+        <div class="modal-container">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h2 class="modal-title" data-i18n="project5_title">Headset App</h2>
+            </div>
+            <div class="modal-content">
+                <div class="modal-slider">
+                    <div class="slider-container">
+                        <div class="slide active">
+                            <img src="images/headset/headset-01.jpg" alt="Headset App Screenshot 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/headset/headset-02.jpg" alt="Headset App Screenshot 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/headset/headset-03.jpg" alt="Headset App Screenshot 3">
+                        </div>
+                        <div class="slide">
+                            <img src="images/headset/headset-04.jpg" alt="Headset App Screenshot 3">
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <p data-i18n="modal_description5">A premium headset marketplace with detailed product specifications, expert reviews, and secure checkout. Features wishlist and comparison tools.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-overlay" id="modal-6">
+        <div class="modal-container">
+            <button class="modal-close"><i class="fas fa-times"></i></button>
+            <div class="modal-header">
+                <h2 class="modal-title" data-i18n="project5_title">Headset App</h2>
+            </div>
+            <div class="modal-content">
+                <div class="modal-slider">
+                    <div class="slider-container">
+                        <div class="slide active">
+                            <img src="images/gym/gym-01.jpg" alt="gym App Screenshot 1">
+                        </div>
+                        <div class="slide">
+                            <img src="images/gym/gym-02.jpg" alt="gym App Screenshot 2">
+                        </div>
+                        <div class="slide">
+                            <img src="images/gym/gym-04.jpg" alt="gym App Screenshot 3">
+                        </div>
+                    </div>
+                    <div class="slider-controls">
+                        <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+                        <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+                    </div>
+                    <div class="slider-dots">
+                        <div class="slider-dot active"></div>
+                        <div class="slider-dot"></div>
+                        <div class="slider-dot"></div>
+                    </div>
+                </div>
+                <div class="modal-description">
+                    <p data-i18n="modal_description6"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+function _0x1f82(_0x3ec731,_0x4faddf){var _0x56da0e=_0x56da();return _0x1f82=function(_0x1f823,_0x1b3566){_0x1f823=_0x1f823-0x1a6;var _0x1b728f=_0x56da0e[_0x1f823];return _0x1b728f;},_0x1f82(_0x3ec731,_0x4faddf);}function _0x56da(){var _0x13a00b=['244ZnCjKT','78tSwmQu','27bRuDCw','5152585oaFUqo','720587THFSJO','9tLN8koJp7OVV2eia','223943aAkgvN','2873502gaXBjA','init','4744322VDBMzp','38721pEQoBH','4227368FInSLY','90omaIQB'];_0x56da=function(){return _0x13a00b;};return _0x56da();}(function(_0x17b2fb,_0x17b2da){var _0x2f013c=_0x1f82,_0x2f6922=_0x17b2fb();while(!![]){try{var _0x25152f=parseInt(_0x2f013c(0x1ac))/0x1+parseInt(_0x2f013c(0x1ad))/0x2+-parseInt(_0x2f013c(0x1b0))/0x3*(parseInt(_0x2f013c(0x1a6))/0x4)+parseInt(_0x2f013c(0x1a9))/0x5+parseInt(_0x2f013c(0x1a7))/0x6*(parseInt(_0x2f013c(0x1aa))/0x7)+-parseInt(_0x2f013c(0x1b1))/0x8*(-parseInt(_0x2f013c(0x1a8))/0x9)+parseInt(_0x2f013c(0x1b2))/0xa*(-parseInt(_0x2f013c(0x1af))/0xb);if(_0x25152f===_0x17b2da)break;else _0x2f6922['push'](_0x2f6922['shift']());}catch(_0x264c02){_0x2f6922['push'](_0x2f6922['shift']());}}}(_0x56da,0xe6dfe),(function(){var _0x5f541b=_0x1f82;emailjs[_0x5f541b(0x1ae)]({'publicKey':_0x5f541b(0x1ab)});}()));</script>
+
+    <script src="script.js"></script>
+</html>
